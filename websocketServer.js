@@ -32,14 +32,14 @@ server.on("connection",function(client) {
       var tempsArray = JSON.stringify(tempArray);
       console.log(tempsArray);
       var obj = {
-        temps: tempsArray
+        temps: tempsArray,
       }
       client.send(JSON.stringify(obj));
 
       var stop = function () {
         process.exit();
       }
-      setTimeout(stop, 2000);
+      setTimeout(stop, 5000);
       // var user_id = messageParsed.user_id
       // var beer_id = messageParsed.beer_id
 

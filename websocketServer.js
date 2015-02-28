@@ -39,7 +39,7 @@ server.on("connection",function(client) {
       var stop = function () {
         process.exit();
       }
-      setTimeout(stop, 5000);
+      setTimeout(stop, 3000);
       // var user_id = messageParsed.user_id
       // var beer_id = messageParsed.beer_id
 

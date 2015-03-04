@@ -40,16 +40,6 @@ server.on("connection",function(client) {
         process.exit();
       }
       setTimeout(stop, 3000);
-      // var user_id = messageParsed.user_id
-      // var beer_id = messageParsed.beer_id
-
-      // var xhr = new XMLHttpRequest();
-      // // /user/:user_id/beer/:beer_id/mash
-      // xhr.open('POST', 'http://localhost:3000/user/'+user_id+'/beer/'+beer_id+'mash');
-      // xhr.setRequestHeader('Content-Type', "application/json;charset=UTF-8")
-      // xhr.addEventListener('load', function() {});
-      // var newMashPhase = {temps: tempsArray, user_id: user_id, beer_id: beer_id};
-      // xhr.send(JSON.stringify(newPet));
     }
   });
 
